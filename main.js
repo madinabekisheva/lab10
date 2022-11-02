@@ -16,10 +16,12 @@ function get_sum(lab) {
 
 function main(lab1, lab2, lab3, lab4_5, lab6, lab8, quiz1){
 	let labs = [lab1, lab2, lab3, lab4_5, lab6, lab8, quiz1];
+	let lab_sums = [];
 	for (let i = 0; i < labs.length; i++) {
 		lab_sum = get_sum(labs[i]);
+		lab_sums.push(lab_sum);
 	}
-	return labs;
+	return lab_sums;
 }
 let obj = main(lab1, lab2, lab3, lab4_5, lab6, lab8, quiz1);
 console.log(obj);
