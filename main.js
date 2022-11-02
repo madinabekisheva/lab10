@@ -20,5 +20,6 @@ function main(lab1, lab2, lab3, lab4_5, lab6, lab8, quiz1){
 		lab_sum = get_sum(labs[i]);
 		console.log(lab_sum);
 	}
+	return labs;
 }
-main(lab1, lab2, lab3, lab4_5, lab6, lab8, quiz1);
+let obj = main(lab1, lab2, lab3, lab4_5, lab6, lab8, quiz1);
